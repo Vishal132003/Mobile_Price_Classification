@@ -1,9 +1,7 @@
 📱 Mobile Price Range Prediction
 🧩 Problem Statement
 
-Bob has started his own mobile company and wants to compete with big brands like Apple and Samsung.
-However, he struggles to estimate the price range of the mobile phones his company develops.
-In the competitive smartphone market, pricing cannot be done by guesswork.
+Bob has started his own mobile company and wants to compete with big brands like Apple and Samsung. However, he struggles to estimate the price range of the mobile phones his company develops. In this competitive smartphone market, pricing cannot be done by guesswork.
 
 To solve this, Bob collected sales data from various companies and wants to find the relationship between mobile features (like RAM, internal memory, battery power, etc.) and their selling price.
 
@@ -13,27 +11,27 @@ Your task is to build a machine learning model that predicts the price range of 
 
 This project implements a machine learning pipeline to predict the price range of mobile phones based on their features.
 
-1. Data Loading and Exploration
+1️⃣ Data Loading and Exploration
 
-Load the training and testing datasets.
+Load the training and testing datasets
 
-Examine their structure, data types, and distributions.
+Examine their structure, data types, and distributions
 
-Understand the relationships between features and the target variable (price_range).
+Understand relationships between features and the target variable (price_range)
 
-2. Data Preprocessing
+2️⃣ Data Preprocessing
 
 Handle differences between the training and test datasets:
 
-Remove unnecessary columns such as id from the test set.
+Remove unnecessary columns like id from the test set
 
-Ensure both datasets have the same feature structure and order.
+Ensure both datasets have consistent feature structures
 
-Perform any necessary normalization or feature scaling.
+Perform feature scaling or normalization if necessary
 
-3. Model Selection and Training
+3️⃣ Model Selection and Training
 
-Train multiple machine learning classification models to identify the one with the best performance:
+Train and compare multiple classification models:
 
 K-Nearest Neighbors (KNN)
 
@@ -43,9 +41,9 @@ Logistic Regression
 
 Support Vector Machine (SVM)
 
-4. Model Evaluation
+4️⃣ Model Evaluation
 
-Evaluate model performance using metrics like:
+Evaluate each model using metrics such as:
 
 Accuracy
 
@@ -55,17 +53,17 @@ Recall
 
 F1-Score
 
-Generate a classification report for comparison.
+Generate and analyze the classification report
 
-5. Prediction on Test Data
+5️⃣ Prediction on Test Data
 
-Use the best-performing model (SVM) to predict the price range of mobiles in the test dataset.
+Use the best-performing model (SVM) to predict the price_range for mobiles in the test dataset
 
-6. Output Generation
+6️⃣ Output Generation
 
-Add the predicted price_range column to the test dataset.
+Add predicted price range to the test dataset
 
-Save the final output to a CSV file named Final_price.csv.
+Save the results as Final_price.csv
 
 🧠 Technologies Used
 
